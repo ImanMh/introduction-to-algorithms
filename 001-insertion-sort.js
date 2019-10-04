@@ -31,11 +31,9 @@ module.exports = {
 };
 
 
-// Sample runner:
-// const sort = require('./001-insertion-sort');
-//
-// const a = [5, 3, 2, 4, 1];
-// sort.insertionSort(a);
-// console.log(a);
-// sort.insertionSortReverse(a);
-// console.log(a);
+// runner
+const a = [5, 3, 2, 4, 1];
+sort.insertionSort(a);
+console.log(a);
+sort.insertionSortReverse(a);
+console.log(a);
