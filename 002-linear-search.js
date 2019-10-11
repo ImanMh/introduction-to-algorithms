@@ -11,5 +11,5 @@ const linearSearch = (arr, key) => {
 
 // runner
 const a = [5, 3, 2, 4, 1];
-const index = search(a, 2);
+const index = linearSearch(a, 2);
 console.log(index);
